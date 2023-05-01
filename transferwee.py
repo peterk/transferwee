@@ -2,7 +2,7 @@
 
 #
 # Copyright (c) 2018-2022 Leonardo Taccari
-# All rights reserved.
+# All rights reserved. 
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
@@ -66,7 +66,6 @@ REQUEST_HEADER = {'User-Agent': USER_AGENT}
 
 
 logger = logging.getLogger(__name__)
-
 
 def download_url(url: str) -> Optional[str]:
     """Given a wetransfer.com download URL download return the downloadable URL.
