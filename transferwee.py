@@ -179,7 +179,7 @@ def _prepare_session() -> Optional[requests.Session]:
     """
     s = requests.Session()
     s.headers.update({
-        'User-Agent': WETRANSFER_USER_AGENT,
+        'User-Agent': USER_AGENT,
         'x-requested-with': 'XMLHttpRequest'
     })
     r = s.get('https://wetransfer.com/')
